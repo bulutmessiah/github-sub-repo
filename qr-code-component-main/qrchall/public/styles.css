@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'specimen';
+  src: local('specimen'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+root{
+    display: flex;
+    margin:0 auto;
+    padding: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: #d6e2f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    font-size:15px;
+    font-family: 'Outfit', sans-serif;;
+
+}
+
+
+.App {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 8vh;
+    height: 80vh;
+    width: 300px;
+    align-items: center;
+    justify-content: start;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+img{
+    width: 300px;
+    border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+}
+
+.App h2{
+    text-align: center;
+    font-weight: bolder;
+    color: hsl(218, 44%, 22%);
+}
+
+.App p{
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.attribution {
+    margin-top: 20px;
+    word-wrap: wrap;
+
+}
+
+@media only screen and (max-width: 350px) {
+  .App {
+    width: 260px;
+  }
+  img {
+      width: 250px;
+  }
+}
